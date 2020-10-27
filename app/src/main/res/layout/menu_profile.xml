@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.luseen.spacenavigation.SpaceNavigationView
+        android:id="@+id/spaceProfile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom"
+        app:active_item_color="@color/colorOrange"
+        app:centre_button_color="@color/colorOrange"
+        app:centre_button_icon="@drawable/ic_add_white_24dp"
+        app:inactive_centre_button_icon_color="#ffff"
+        app:inactive_item_color="#000000"
+        app:space_background_color="#ffff" />
+
+</RelativeLayout>

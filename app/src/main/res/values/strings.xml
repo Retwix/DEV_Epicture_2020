@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Epicture</string>
+
+    <string-array name="country_arrays">
+        <item>Most Viral</item>
+        <item>User Submitted</item>
+        <item>Highest Scoring</item>
+    </string-array>
+
+    <string-array name="LOL">
+        <item>Popular</item>
+        <item>Newest</item>
+        <item>Best</item>
+        <item>Random</item>
+    </string-array>
+
+
+</resources>

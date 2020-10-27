@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gradient"
+    android:orientation="vertical"
+    android:screenOrientation="portrait"
+    tools:context=".View.signin">
+
+    <WebView
+        android:id="@+id/imguroauth"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </WebView>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="190dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="100sp"
+        android:autoSizeMaxTextSize="100sp"
+        android:autoSizeTextType="uniform"
+        android:fontFamily="@font/creation"
+        android:gravity="center"
+        android:text="Epicture"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="202dp"
+        android:layout_height="25dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="0dp"
+        android:autoSizeTextType="uniform"
+        android:gravity="center"
+        android:text="Sign in to your account"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp"
+        android:background="@drawable/box_white"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/buttonSignIn"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="150dp"
+            android:background="@drawable/btn_gradient"
+            android:text="Sign in with Imgur"
+            android:textColor="#ffff" />
+
+        <TextView
+            android:id="@+id/Noco"
+            android:layout_width="200dp"
+            android:layout_height="20dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:autoSizeTextType="uniform"
+            android:gravity="center"
+            android:text="Or continue without sign in" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom|center_horizontal"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/foo_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:text="Don't you have an account ?" />
+
+            <TextView
+                android:id="@+id/register"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@id/foo_bar"
+                android:layout_toRightOf="@id/foo_bar"
+                android:text="Register"
+                android:textColor="#F06115"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
