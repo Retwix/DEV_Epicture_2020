@@ -1,6 +1,21 @@
 # DEV_Epicture_2020
 Epitech Lyon - Imgur API implementation
 
+Mark after 7/20
+
+Review mark: 322032
+
+User eXperience (2 / 4) :
+
+Abstraction (30 / 40) :
+
+Quality Assurance (0 / 400) :
+
+Methodology and Organisation (2000 / 4000) :
+
+Involvment (20000 / 40000) :
+
+Oral Presentation (300000 / 400000) :
 
 ## GENERAL CONSIDERATIONS
 
