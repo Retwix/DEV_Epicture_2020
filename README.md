@@ -1,7 +1,7 @@
 # DEV_Epicture_2020
 Epitech Lyon - Imgur API implementation
 
-Mark after 7/20
+Mark: 7/20
 
 Review mark: 322032
 
